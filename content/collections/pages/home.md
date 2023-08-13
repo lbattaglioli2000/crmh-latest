@@ -10,7 +10,7 @@ page_image: home-og.png
 page_width: 1200
 page_height: 630
 updated_by: 276fbad6-728b-4736-83b8-2d760b0bf40c
-updated_at: 1691952125
+updated_at: 1691962171
 components:
   -
     type: set
@@ -80,6 +80,15 @@ components:
         type: team
         headline: 'Meet The Team'
         copy: 'As an initiative of Cornell Cooperative Extension, Capital Region Menstrual Health (previously SMHC) works to promote the health and wellbeing of individuals who menstruate in our area. CRMH works to increase period equity by bringing period products directly into under-resourced communities through a network of established and trusted community-based organizations and our period pantries.'
+  -
+    type: set
+    attrs:
+      id: ll9ykf2d
+      values:
+        type: contact_us
+        eyebrow: "Let's Work Together"
+        headline: 'Reach out to learn more!'
+        copy: 'Together, we can bring about menstrual health and equity in the Capital Region. If you want to get in touch with us to learn more about the work we’re doing, or to learn how you can make a difference, you can submit the form below and someone from our team will get back to you.'
   -
     type: paragraph
 ---

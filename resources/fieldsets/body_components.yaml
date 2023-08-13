@@ -363,6 +363,62 @@ fields:
                     visibility: visible
                     hide_display: false
                     instructions: 'Select the type of resource to show'
+            contact_us:
+              display: 'Contact Us'
+              instructions: null
+              icon: mail-sign-at
+              fields:
+                -
+                  handle: eyebrow
+                  field:
+                    input_type: text
+                    antlers: false
+                    type: text
+                    display: Eyebrow
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    hide_display: false
+                -
+                  handle: headline
+                  field:
+                    input_type: text
+                    antlers: false
+                    type: text
+                    display: Headline
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    hide_display: false
+                -
+                  handle: copy
+                  field:
+                    restrict: false
+                    buttons:
+                      - bold
+                      - italic
+                      - unorderedlist
+                      - orderedlist
+                      - quote
+                      - link
+                      - image
+                      - table
+                    automatic_line_breaks: true
+                    automatic_links: false
+                    escape_markup: false
+                    heading_anchors: false
+                    smartypants: false
+                    table_of_contents: false
+                    antlers: false
+                    type: markdown
+                    display: Copy
+                    icon: markdown
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    hide_display: false
       always_show_set_button: true
       collapse: false
       previews: true
