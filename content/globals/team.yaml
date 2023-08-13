@@ -1,0 +1,36 @@
+title: Team
+data:
+  members:
+    -
+      id: lgn1y8nr
+      name: 'Brynn Watkins'
+      job_title: 'NYS Public Health Corps Fellow'
+      email_address: bw442@cornell.edu
+      phone_number: '(518) 545-7874'
+      profile_photo: brynn.jpeg
+      type: members
+      enabled: true
+      bio: 'CRMH strives to fight period poverty by bringing period products directly into under-resourced communities through a network of established and trusted community-based organizations and our period pantries. These pantries are small, free, weather-protected containers that house a multitude of menstrual hygiene products that are accessible 24/7.'
+    -
+      id: lgn1xc9k
+      name: 'Claire Jennings'
+      job_title: 'NYS Public Health Corps Fellow'
+      email_address: cj377@cornell.edu
+      phone_number: '(518) 396-7093'
+      profile_photo: claire.jpeg
+      type: members
+      enabled: true
+      bio: |-
+        I am a recent graduate of the State University of New York at Geneseo, with a bachelor’s degree in Political Science, and Geological Sciences. While attending SUNY Geneseo, I worked as an Undergraduate Laboratory Assistant (ULA) for the Geneseo Geology Department, as well as an employee at Jefferson County Public Health in Watertown, NY in Preventative Services, Communicable Disease Control. 
+
+        I am currently a NYS Public Health Corps Fellow at Schenectady County Public Health and Cornell Cooperative Extension, Schenectady County, attending the University at Albany for my Masters in Public Health. I am also co-founder of Capital Region Menstrual Health.
+    -
+      id: lgn1voka
+      name: 'Annabelle Rieseler'
+      job_title: 'NYS Public Health Corps Fellow'
+      email_address: adr99@cornell.edu
+      phone_number: '(518) 764-9045'
+      profile_photo: annabelle.jpeg
+      type: members
+      enabled: true
+      bio: 'Currently working as a New York State Public Health Corps Fellow and co-organizer of Capital Region Menstrual Heath program. Earned BS in Human Biology, Pre-Health from University at Albany, SUNY. Interested in both Public and Global Health, and Health Sciences. Holds a desire and plan for serving in the Peace Corps under the Health sector.'

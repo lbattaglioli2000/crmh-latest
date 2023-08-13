@@ -1,0 +1,19 @@
+<div class="resources">
+    <div class="container mx-auto p-6 text-xl">
+            <div class="mb-12">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    {{ collection:resources }}
+                        <a href="{{ link }}" target="_blank" class="block bg-pink-50 border-2 border-pink-800 shadow-solid-brand p-6">
+                            <span class="block font-black mb-2">{{ title }}</span>
+                            {{ resource_type }}
+                                <span class="block text-accent uppercase text-sm mb-4">
+                                    {{ title }}
+                                </span>
+                            {{ /resource_type }}
+                            {{ content }}
+                        </a>
+                    {{ /collection:resources }}
+                </div>
+            </div>
+    </div>
+</div>

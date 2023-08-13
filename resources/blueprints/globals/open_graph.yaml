@@ -1,0 +1,89 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          input_type: text
+          antlers: false
+          display: Title
+          type: text
+          icon: text
+          instructions: 'The title of your object as it should appear within the graph'
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: description
+        field:
+          antlers: false
+          display: Description
+          type: textarea
+          icon: textarea
+          instructions: 'A one to two sentence description of your object.'
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: url
+        field:
+          input_type: text
+          antlers: false
+          display: URL
+          type: text
+          icon: text
+          instructions: 'The canonical URL of your object that will be used as its permanent ID in the graph.'
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: image_section
+        field:
+          display: Image
+          type: section
+          icon: section
+          instructions: 'The og:image property has some optional structured properties: - `og:image:width` The number of pixels wide. - `og:image:height` The number of pixels high.'
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: image
+        field:
+          mode: list
+          container: assets
+          restrict: false
+          allow_uploads: true
+          show_filename: true
+          max_files: 1
+          display: Image
+          type: assets
+          icon: assets
+          instructions: 'An image URL which should represent your object within the graph.'
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: image_width
+        field:
+          input_type: text
+          antlers: false
+          display: 'Image Width'
+          type: text
+          icon: text
+          width: 50
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: image_height
+        field:
+          input_type: text
+          antlers: false
+          display: 'Image Height'
+          type: text
+          icon: text
+          width: 50
+          listable: hidden
+          instructions_position: above
+          visibility: visible

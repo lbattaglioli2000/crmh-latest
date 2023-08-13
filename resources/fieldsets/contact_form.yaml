@@ -1,0 +1,41 @@
+title: 'Contact Form'
+fields:
+  -
+    handle: name
+    field:
+      input_type: text
+      antlers: false
+      display: Name
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      validate:
+        - required
+  -
+    handle: email_address
+    field:
+      input_type: text
+      antlers: false
+      display: 'Email Address'
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      validate:
+        - required
+        - email
+  -
+    handle: message
+    field:
+      antlers: false
+      display: Message
+      type: textarea
+      icon: textarea
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      validate:
+        - required

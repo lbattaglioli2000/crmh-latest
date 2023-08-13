@@ -1,0 +1,63 @@
+sections:
+  ogranization_information:
+    display: 'Organization Information'
+    fields:
+      -
+        handle: name
+        field:
+          input_type: text
+          antlers: false
+          display: Name
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: address
+        field:
+          input_type: text
+          antlers: false
+          display: Address
+          type: text
+          icon: text
+          width: 50
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: city
+        field:
+          input_type: text
+          antlers: false
+          display: City
+          type: text
+          icon: text
+          width: 50
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: state
+        field:
+          input_type: text
+          antlers: false
+          display: State
+          type: text
+          icon: text
+          width: 50
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: postal_code
+        field:
+          input_type: text
+          antlers: false
+          display: 'Postal Code'
+          type: text
+          icon: text
+          width: 50
+          listable: hidden
+          instructions_position: above
+          visibility: visible

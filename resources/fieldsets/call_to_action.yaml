@@ -1,0 +1,37 @@
+title: 'Call to Action Button'
+fields:
+  -
+    handle: icon
+    field:
+      type: icon
+      display: Icon
+      icon: icon_picker
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false
+      directory: resources/icons/heroicons
+  -
+    handle: copy
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: Copy
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false
+  -
+    handle: link_field
+    field:
+      collections:
+        - pages
+      type: link
+      display: 'Link Field'
+      icon: link
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false

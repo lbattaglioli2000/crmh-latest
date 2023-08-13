@@ -1,0 +1,19 @@
+{{ components }}
+
+{{ if type == "home_hero" }}
+    {{ partial:hero }}
+{{ elseif type == "child_page_hero" }}
+    {{ partial:headline_copy }}
+{{ elseif type == "resources" }}
+    {{ partial:resources }}
+{{ elseif type == "headline_copy" }}
+    {{ partial:headline_copy }}
+{{ elseif type == "pantry_locations" }}
+    {{ partial:discover }}
+{{ elseif type == "call_to_action" }}
+    {{ partial:cta }}
+{{ elseif type == "team" }}
+    {{ partial:team }}
+{{ /if }}
+
+{{ /components }}

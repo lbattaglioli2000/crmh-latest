@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="{{ site:short_locale }}">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>{{ title ?? site:name }}</title>
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=DynaPuff:wght@400;500;600;700&family=Poppins:wght@100;300;400;500;600;700;800;900&family=Saira+Stencil+One&display=swap" rel="stylesheet">
+
+        <!-- Styles and Scripts -->
+        {{ vite src="resources/js/site.js|resources/scss/site.scss" }}
+    </head>
+    <body>
+        <header class="container mx-auto my-8 p-6">
+            <img class="logo" src="/img/crmh-logo.svg" alt="Capital Region Menstrual Health Logo">
+            <nav>
+                <a href="/" class="active">Home</a>
+                <a href="/resources">Resources</a>
+                <a>Donate</a>
+            </nav>
+        </header>
+
+        <main>
+            {{ template_content }}
+        </main>
+    </body>
+</html>

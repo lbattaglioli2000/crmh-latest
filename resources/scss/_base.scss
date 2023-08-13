@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=DynaPuff:wght@400;500;600;700&family=Poppins:wght@100;300;400;500;600;700;800;900&family=Saira+Stencil+One&display=swap');
+
+$pink-50: #FFE3EC;
+$pink-100: #FFB8D2;
+$pink-300: #F364A2;
+$pink-700: #A30664;
+$pink-800: #870557;
+$pink-900: #620042;
+
+$purple-accent: #9446ED;
+
+$hand-drawn: 'Delicious Handrawn', sans-serif;
+$dyna-puff: 'DynaPuff', sans-serif;
+$poppins: 'Poppins', sans-serif;
+$stencil: 'Saira Stencil One', monospace;
+
+body, html {
+    @apply bg-pink-100 border-t-8 border-t-pink-900 font-sans text-pink-900 font-body;
+
+    h1, h2 {
+        @apply font-headline font-black leading-none;
+    }
+
+    h3 {
+        @apply font-body font-semibold uppercase text-accent;
+    }
+}

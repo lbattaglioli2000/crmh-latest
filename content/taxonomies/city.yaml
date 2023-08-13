@@ -1,0 +1,6 @@
+title: Cities
+preview_targets:
+  -
+    label: City
+    url: '{permalink}'
+    refresh: true

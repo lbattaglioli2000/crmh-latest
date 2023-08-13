@@ -1,0 +1,21 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: members
+        field:
+          collapse: false
+          previews: true
+          sets:
+            new_set:
+              display: 'New Set'
+              fields:
+                -
+                  import: team_member
+          display: Members
+          type: replicator
+          icon: replicator
+          listable: hidden
+          instructions_position: above
+          visibility: visible

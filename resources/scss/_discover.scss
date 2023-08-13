@@ -1,0 +1,14 @@
+.discover {
+    @apply relative z-10;
+
+    &:before {
+        @apply hidden z-0;
+
+        @screen 2xl {
+            content: "";
+            background-image: url('../../public/img/tampon.svg');
+
+            @apply block absolute -top-[5%] left-0 bg-contain bg-no-repeat w-40 h-1/2 w-1/6 bg-left;
+        }
+    }
+}

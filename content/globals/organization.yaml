@@ -1,0 +1,35 @@
+title: Organization
+data:
+  name: 'Capital Region Menstrual Health'
+  address: '107 Nott Terrace, Suite 301'
+  city: Schenectady
+  state: 'New York'
+  postal_code: '12308'
+  team_members:
+    -
+      id: lgn0y7we
+      name: 'Brynn Watkins'
+      email_address: bw442@cornell.edu
+      phone_number: '(518) 545-7874'
+      type: team_member
+      enabled: true
+      profile_image: brynn.jpeg
+      title: 'NYS Public Health Corps Fellow'
+    -
+      id: lgn0yr6k
+      name: 'Annabelle Rieseler'
+      email_address: adr99@cornell.edu
+      phone_number: 518-764-9045
+      type: team_member
+      enabled: true
+      profile_image: annabelle.jpeg
+      title: 'NYS Public Health Corps Fellow'
+    -
+      id: lgn0zjtb
+      name: 'Claire Jennings'
+      email_address: cj377@cornell.edu
+      phone_number: '(518) 396-7093'
+      type: team_member
+      enabled: true
+      profile_image: claire.jpeg
+      title: 'NYS Public Health Corps Fellow'

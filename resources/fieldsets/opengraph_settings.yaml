@@ -1,0 +1,92 @@
+title: 'OpenGraph Settings'
+fields:
+  -
+    handle: title
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: Title
+      icon: text
+      instructions: 'The title of your object as it should appear within the graph'
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false
+  -
+    handle: description
+    field:
+      antlers: false
+      type: textarea
+      display: Description
+      icon: textarea
+      instructions: 'A one to two sentence description of your object.'
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false
+  -
+    handle: url
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: URL
+      icon: text
+      instructions: 'The canonical URL of your object that will be used as its permanent ID in the graph.'
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false
+  -
+    handle: image_data
+    field:
+      type: section
+      display: 'Image Data'
+      icon: section
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false
+  -
+    handle: image
+    field:
+      max_files: 1
+      mode: grid
+      container: assets
+      restrict: false
+      allow_uploads: true
+      show_filename: true
+      show_set_alt: true
+      type: assets
+      display: Image
+      icon: assets
+      instructions: 'An image, which should represent your object within the graph.'
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false
+  -
+    handle: width
+    field:
+      type: integer
+      display: Width
+      icon: integer
+      instructions: 'The number of pixels wide.'
+      width: 50
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false
+  -
+    handle: height
+    field:
+      type: integer
+      display: Height
+      icon: integer
+      instructions: 'The number of pixels high.'
+      width: 50
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false

@@ -1,0 +1,47 @@
+header {
+    @apply flex flex-col;
+
+    @screen md {
+        @apply flex-row;
+    }
+
+  nav {
+      @apply m-auto justify-center;
+
+    a {
+        @apply text-pink-700 font-bold inline-block m-3 z-10 cursor-pointer no-underline;
+
+      &.active {
+          @apply text-pink-900 relative;
+
+          &:after {
+              content: "";
+              position: absolute;
+              bottom: -30px;
+              left: -10px;
+              background-image: url("../../public/img/active-indicator.svg");
+              background-repeat: no-repeat;
+              background-size: contain;
+              height: 60px;
+              width: 80px;
+              z-index: -10;
+          }
+      }
+    }
+
+    @media screen and (min-width: 748px) {
+      margin-right: unset;
+    }
+  }
+
+  .logo {
+    max-width: 150px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media screen and (min-width: 748px) {
+      margin-left: unset;
+    }
+  }
+}

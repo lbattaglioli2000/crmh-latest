@@ -1,0 +1,164 @@
+title: 'Donation Request Form'
+fields:
+  -
+    handle: organization
+    field:
+      input_type: text
+      antlers: false
+      display: Organization
+      type: text
+      icon: text
+      instructions: 'What is the name of your organization?'
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+  -
+    handle: mission
+    field:
+      input_type: text
+      antlers: false
+      display: Mission
+      type: text
+      icon: text
+      instructions: 'What is the mission of your organization?'
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+  -
+    handle: individuals_served
+    field:
+      options:
+        0-100: 'Less than 100'
+        100-500: '100 to 500'
+        500-700: '500 to 700'
+        700-1000: '700 to 1,000'
+        1000+: 'Greater than 1,000'
+      inline: false
+      cast_booleans: false
+      display: 'Individuals Served'
+      type: radio
+      icon: radio
+      instructions: 'How many individuals do you serve annually (estimate)'
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+  -
+    handle: poverty_rate
+    field:
+      options:
+        0-10: 'Less than 10%'
+        10-25: '10% to 25%'
+        25-35: '25% to 35%'
+        35-40: '35% to 40%'
+        40-50: '40% to 50%'
+        50+: '50% or higher'
+      inline: false
+      cast_booleans: false
+      display: 'Poverty Rate'
+      type: radio
+      icon: radio
+      instructions: 'What percentage of the population you work with are living in poverty?'
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+  -
+    handle: systems_of_oppression
+    field:
+      inline: false
+      options:
+        racism: Racism
+        sexism: Sexism
+        classism: Classism
+        heterosexism: Heterosexism
+        all: 'All of the above'
+        other: Other
+      display: 'Systems of Oppression'
+      type: checkboxes
+      icon: checkboxes
+      instructions: 'What systems of oppression most negatively impact the individuals you serve?'
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+  -
+    handle: menstruation_percentage
+    field:
+      options:
+        '>10': 'Less than 10%'
+        10-25: '10% to 25%'
+        25-30: '25% to 30%'
+        35-50: '35% to 40%'
+        40-50: '40% to 50%'
+        '<50': '50% or higher'
+      inline: false
+      cast_booleans: false
+      display: 'Menstruation Percentage'
+      type: radio
+      icon: radio
+      instructions: 'What percentage of the population you work with menstruate?'
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+  -
+    handle: provides_period_products
+    field:
+      options:
+        'true': 'Yes'
+        'false': 'No'
+      inline: false
+      cast_booleans: true
+      display: 'Provides Period Products?'
+      type: radio
+      icon: radio
+      instructions: 'Does your organization provide period products to the individuals you work with?'
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+  -
+    handle: product_interest
+    field:
+      inline: false
+      options:
+        pads: Pads
+        tampons: Tampons
+        cups: 'Menstrual Cups'
+      display: 'Product Interest'
+      type: checkboxes
+      icon: checkboxes
+      instructions: 'What kind of period products are you interested in?'
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+  -
+    handle: questions
+    field:
+      antlers: false
+      display: Questions
+      type: textarea
+      icon: textarea
+      instructions: 'Any questions or details you think SMHC should know?'
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+  -
+    handle: name
+    field:
+      input_type: text
+      antlers: false
+      display: 'Your Name'
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+  -
+    handle: contact_information
+    field:
+      input_type: text
+      antlers: false
+      display: 'Contact Information'
+      type: text
+      icon: text
+      instructions: 'Where can we reach you?'
+      listable: hidden
+      instructions_position: above
+      visibility: visible

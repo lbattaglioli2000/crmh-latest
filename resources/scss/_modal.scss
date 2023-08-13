@@ -1,0 +1,107 @@
+.remodal-overlay {
+    background-color: #620042;
+    opacity: 50%;
+}
+
+.remodal {
+    padding: 0;
+    border: 10px solid $pink-900;
+    background-color: $pink-50;
+
+    .remodal-close {
+        color: $pink-900;
+        z-index: 50;
+        top: 10px;
+        left: 10px;
+
+        &::before {
+            font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif !important;
+            font-size: 55px;
+            line-height: 35px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block;
+            width: 35px;
+            content: "\00d7";
+            text-align: center;
+        }
+    }
+
+    .map {
+        height: 350px;
+        width: 100%;
+        background-color: white;
+    }
+
+    .content {
+        text-align: left;
+        padding: 1.2rem;
+        color: $pink-900;
+        margin-top: 18px;
+
+        h1 {
+            font-family: "Poppins", sans-serif;
+            font-size: 36px;
+            margin-bottom: 0;
+            margin-top: 18px;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+        p {
+            font-family: "Poppins", sans-serif;
+            font-size: 18px;
+            margin-top: 0;
+            padding-top: 0;
+        }
+        a {
+            display: block;
+            width: 100%;
+            text-align: center;
+            color: $pink-50;
+            background-color: $pink-900;
+            text-decoration: none;
+            padding-top: 18px;
+            padding-bottom: 18px;
+            margin-top: 36px;
+        }
+
+        .info {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            @media screen and (min-width: 590px) {
+                flex-direction: row;
+            }
+
+            .address {
+                margin-bottom: auto;
+                display: flex;
+                svg {
+                    margin-bottom: auto;
+                    margin-top: 8px;
+                    margin-right: 16px;
+                }
+                address {
+                    font-style: normal;
+                }
+            }
+            .hours {
+                display: flex;
+                margin-bottom: auto;
+
+                svg {
+                    margin-bottom: auto;
+                    margin-top: auto;
+                    margin-right: 16px;
+                }
+                span {
+                    display: block;
+                    margin-bottom: auto;
+                    margin-top: auto;
+                }
+            }
+        }
+    }
+}

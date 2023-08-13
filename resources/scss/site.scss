@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "remodal/dist/remodal.css";
+@import "remodal/dist/remodal-default-theme.css";
+
+/* This is all you. */
+@import "base";
+
+@import "nav";
+@import "hero";
+@import "support";
+@import "discover";
+
+@import "modal";
+@import "form";

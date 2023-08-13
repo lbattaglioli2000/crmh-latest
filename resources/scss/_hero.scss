@@ -1,0 +1,24 @@
+.hero {
+    @apply relative z-50;
+
+    &::after {
+        content: "";
+        background-image: url('../../public/img/cutoff-pad.svg');
+
+        @apply block absolute bottom-0 right-0 bg-contain bg-no-repeat h-1/2 w-1/2 z-0 bg-right;
+
+        @screen md {
+            @apply h-2/3;
+        }
+        @screen lg {
+            @apply h-3/4;
+        }
+        @screen xl {
+            @apply top-0;
+            background-image: url("../../public/img/pad.svg");
+        }
+        @screen 2xl {
+            @apply h-full bottom-3/4;
+        }
+    }
+}

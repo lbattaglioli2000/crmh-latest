@@ -1,0 +1,375 @@
+title: 'Body Components'
+fields:
+  -
+    handle: components
+    field:
+      buttons:
+        - h2
+        - h3
+        - bold
+        - italic
+        - unorderedlist
+        - orderedlist
+        - removeformat
+        - quote
+        - anchor
+        - image
+        - table
+      smart_typography: false
+      save_html: false
+      inline: false
+      toolbar_mode: fixed
+      reading_time: false
+      word_count: false
+      fullscreen: true
+      allow_source: true
+      enable_input_rules: true
+      enable_paste_rules: true
+      remove_empty_nodes: false
+      antlers: false
+      link_noopener: false
+      link_noreferrer: false
+      target_blank: false
+      sets:
+        heros:
+          display: Heros
+          instructions: null
+          icon: text-formatting-wrap-around-bounding-box
+          sets:
+            home_hero:
+              display: 'Home Hero'
+              instructions: null
+              icon: home-house
+              fields:
+                -
+                  handle: eyebrow
+                  field:
+                    input_type: text
+                    antlers: false
+                    type: text
+                    display: Eyebrow
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    hide_display: false
+                -
+                  handle: headline
+                  field:
+                    input_type: text
+                    antlers: false
+                    type: text
+                    display: Headline
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    hide_display: false
+                -
+                  handle: copy
+                  field:
+                    restrict: false
+                    buttons:
+                      - bold
+                      - italic
+                      - unorderedlist
+                      - orderedlist
+                      - quote
+                      - link
+                      - image
+                      - table
+                    automatic_line_breaks: true
+                    automatic_links: false
+                    escape_markup: false
+                    heading_anchors: false
+                    smartypants: false
+                    table_of_contents: false
+                    antlers: false
+                    type: markdown
+                    display: Copy
+                    icon: markdown
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    hide_display: false
+                -
+                  import: call_to_action
+                  prefix: hero_
+            child_page_hero:
+              display: 'Child Page Hero'
+              instructions: null
+              icon: text-formatting-image-top
+              fields:
+                -
+                  handle: headline
+                  field:
+                    input_type: text
+                    antlers: false
+                    type: text
+                    display: Headline
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    hide_display: false
+                -
+                  handle: copy
+                  field:
+                    restrict: false
+                    buttons:
+                      - bold
+                      - italic
+                      - unorderedlist
+                      - orderedlist
+                      - quote
+                      - link
+                      - image
+                      - table
+                    automatic_line_breaks: true
+                    automatic_links: false
+                    escape_markup: false
+                    heading_anchors: false
+                    smartypants: false
+                    table_of_contents: false
+                    antlers: false
+                    type: markdown
+                    display: Copy
+                    icon: markdown
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    hide_display: false
+        sections:
+          display: Sections
+          instructions: null
+          icon: dashboard-layout-2
+          sets:
+            headline_copy:
+              display: 'Headline & Copy'
+              instructions: null
+              icon: text-formatting-initial-letter
+              fields:
+                -
+                  handle: headline
+                  field:
+                    input_type: text
+                    antlers: false
+                    type: text
+                    display: Headline
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    hide_display: false
+                -
+                  handle: copy
+                  field:
+                    restrict: false
+                    buttons:
+                      - bold
+                      - italic
+                      - unorderedlist
+                      - orderedlist
+                      - quote
+                      - link
+                      - image
+                      - table
+                    automatic_line_breaks: true
+                    automatic_links: false
+                    escape_markup: false
+                    heading_anchors: false
+                    smartypants: false
+                    table_of_contents: false
+                    antlers: false
+                    type: markdown
+                    display: Copy
+                    icon: markdown
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    hide_display: false
+            call_to_action:
+              display: 'Call to Action'
+              instructions: null
+              icon: shopping-store-signage
+              fields:
+                -
+                  handle: headline
+                  field:
+                    input_type: text
+                    antlers: false
+                    type: text
+                    display: Headline
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    hide_display: false
+                -
+                  handle: copy
+                  field:
+                    restrict: false
+                    buttons:
+                      - bold
+                      - italic
+                      - unorderedlist
+                      - orderedlist
+                      - quote
+                      - link
+                      - image
+                      - table
+                    automatic_line_breaks: true
+                    automatic_links: false
+                    escape_markup: false
+                    heading_anchors: false
+                    smartypants: false
+                    table_of_contents: false
+                    antlers: false
+                    type: markdown
+                    display: Copy
+                    icon: markdown
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    hide_display: false
+                -
+                  handle: actions
+                  field:
+                    collapse: false
+                    previews: true
+                    fullscreen: true
+                    sets:
+                      new_set_group:
+                        display: 'New Set Group'
+                        instructions: null
+                        icon: null
+                        sets:
+                          new_set:
+                            display: 'New Set'
+                            instructions: null
+                            icon: null
+                            fields:
+                              -
+                                import: call_to_action
+                    type: replicator
+                    display: Actions
+                    icon: replicator
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    hide_display: false
+            pantry_locations:
+              display: 'Pantry Locations'
+              instructions: 'Displays all the pantries, grouped by their respective city.'
+              icon: travel-map
+              fields:
+                -
+                  handle: eyebrow
+                  field:
+                    input_type: text
+                    antlers: false
+                    type: text
+                    display: Eyebrow
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    hide_display: false
+                -
+                  handle: headline
+                  field:
+                    input_type: text
+                    antlers: false
+                    type: text
+                    display: Headline
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    hide_display: false
+                -
+                  handle: copy
+                  field:
+                    restrict: false
+                    buttons:
+                      - bold
+                      - italic
+                      - unorderedlist
+                      - orderedlist
+                      - quote
+                      - link
+                      - image
+                      - table
+                    automatic_line_breaks: true
+                    automatic_links: false
+                    escape_markup: false
+                    heading_anchors: false
+                    smartypants: false
+                    table_of_contents: false
+                    antlers: false
+                    type: markdown
+                    display: Copy
+                    icon: markdown
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    hide_display: false
+            team:
+              display: 'Meet the Team'
+              instructions: 'Lists all the team members defined in the Globals section of the site.'
+              icon: user-multiple
+              fields:
+                -
+                  handle: headline
+                  field:
+                    input_type: text
+                    antlers: false
+                    type: text
+                    display: Headline
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    hide_display: false
+                -
+                  handle: copy
+                  field:
+                    antlers: false
+                    type: textarea
+                    display: Copy
+                    icon: textarea
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    hide_display: false
+            resources:
+              display: Resources
+              instructions: 'Display a specific category of resources.'
+              icon: content-book-open
+              fields:
+                -
+                  handle: resource_type
+                  field:
+                    max_items: 1
+                    mode: default
+                    create: true
+                    taxonomies:
+                      - resources
+                    type: terms
+                    display: 'Resource Type'
+                    icon: taxonomy
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    hide_display: false
+                    instructions: 'Select the type of resource to show'
+      always_show_set_button: true
+      collapse: false
+      previews: true
+      type: bard
+      display: Components
+      icon: bard
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false

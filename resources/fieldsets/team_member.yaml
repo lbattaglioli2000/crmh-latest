@@ -1,0 +1,101 @@
+title: 'Team Member'
+fields:
+  -
+    handle: profile_photo
+    field:
+      mode: grid
+      container: assets
+      restrict: false
+      allow_uploads: true
+      show_filename: true
+      max_files: 1
+      display: 'Profile Photo'
+      type: assets
+      icon: assets
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      validate:
+        - required
+  -
+    handle: name
+    field:
+      input_type: text
+      antlers: false
+      display: Name
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      validate:
+        - required
+  -
+    handle: job_title
+    field:
+      input_type: text
+      antlers: false
+      display: 'Job Title'
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      validate:
+        - required
+  -
+    handle: bio
+    field:
+      restrict: false
+      buttons:
+        - bold
+        - italic
+        - unorderedlist
+        - orderedlist
+        - quote
+        - link
+        - image
+        - table
+      automatic_line_breaks: true
+      automatic_links: false
+      escape_markup: false
+      heading_anchors: false
+      smartypants: false
+      table_of_contents: false
+      antlers: false
+      type: markdown
+      display: Bio
+      icon: markdown
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false
+  -
+    handle: email_address
+    field:
+      input_type: email
+      antlers: false
+      display: 'Email Address'
+      type: text
+      icon: text
+      width: 50
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      validate:
+        - required
+        - email
+  -
+    handle: phone_number
+    field:
+      input_type: tel
+      antlers: false
+      display: 'Phone Number'
+      type: text
+      icon: text
+      width: 50
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      validate:
+        - required

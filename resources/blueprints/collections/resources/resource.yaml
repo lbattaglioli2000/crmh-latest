@@ -1,0 +1,55 @@
+title: Resource
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: content
+            field:
+              type: markdown
+              localizable: true
+          -
+            handle: link
+            field:
+              display: Link
+              type: link
+              icon: link
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              validate:
+                - required
+          -
+            handle: resource_type
+            field:
+              max_items: 1
+              mode: default
+              create: true
+              taxonomies:
+                - resources
+              type: terms
+              display: 'Resource Type'
+              icon: taxonomy
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
