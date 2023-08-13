@@ -2,7 +2,7 @@
     <img src="/img/mobile-tampon.svg" class="w-3/4 max-h-[275px] object-cover">
 </div>
 
-<section class="discover md:mt-12">
+<section class="discover md:mt-12" id="pantries">
     <div class="mx-auto container p-6 text-xl z-50">
         <h2 class="text-4xl sm:text-6xl lg:text-7xl mb-4">
             <span class="block font-sans uppercase font-bold text-pink-500 text-lg sm:text-2xl">
@@ -18,7 +18,7 @@
                 <h3 class="my-4">{{ title }}</h3>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                     {{ entries:pantry }}
-                    <a href="#" class="flex col-span-1 bg-pink-50 border-4 border-pink-800 shadow-solid-brand relative" id="{{ slug }}">
+                    <a data-remodal-target="{{ slug }}" href="#" class="flex col-span-1 bg-pink-50 border-4 border-pink-800 shadow-solid-brand relative" id="{{ slug }}">
                         <img
                             src="{{ photo:url }}"
                             alt="{{ title }} in {{ city:title }}"
@@ -61,7 +61,7 @@
 
 <div class="remodal-bg">
     {{ collection:pantries }}
-        <div class="remodal" data-remodal-id="{{ slug }}">
+        <div class="remodal" data-remodal-id="{{ slug }}" data-remodal-options="hashTracking: false, closeOnOutsideClick: true">
 
             <div class="map"
                  id="{{ slug }}-map"
@@ -75,10 +75,15 @@
             <button data-remodal-action="close" class="remodal-close"></button>
 
             <div class="content">
-                <h1>{{ title }} Period Pantry</h1>
-                {{ details }}
+                <h1 class="leading-tight">
+                    {{ title }}
+                </h1>
 
-                <div class="info">
+                <div class="my-4">
+                    {{ details }}
+                </div>
+
+                <div class="info my-4">
                     <div class="address">
                         <svg width="26.5004076px" height="24.5678854px" viewBox="0 0 26.5004076 24.5678854" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <g id="PAGES" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
@@ -95,7 +100,6 @@
                                 </g>
                             </g>
                         </svg>
-
                         <address>
                             {{ address }},
                             <br>
@@ -106,7 +110,6 @@
                     </div>
                     <div class="hours">
                         <svg xmlns="http://www.w3.org/2000/svg" width="25.5" height="25.5"><path fill="none" fill-rule="evenodd" stroke="#A30664" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12.75 4.75v8h6m6 0a12 12 0 0 1-24 0c0-6.627 5.373-12 12-12s12 5.373 12 12h0Z"/></svg>
-
                         <span>
                             Accessible 24/7
                         </span>
@@ -120,7 +123,7 @@
         </div>
     {{ /collection:pantries }}
 
-    <div class="remodal" data-remodal-id="donate">
+    <div class="remodal" data-remodal-id="donate" data-remodal-options="hashTracking: false, closeOnOutsideClick: true">
         <button data-remodal-action="close" class="remodal-close"></button>
 
         <div class="content">

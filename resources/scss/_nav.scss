@@ -5,43 +5,37 @@ header {
         @apply flex-row;
     }
 
-  nav {
-      @apply m-auto justify-center;
+    nav {
+        @apply m-auto justify-center;
 
-    a {
-        @apply text-pink-700 font-bold inline-block m-3 z-10 cursor-pointer no-underline;
+        a {
+            @apply text-pink-500 font-bold inline-block z-10 cursor-pointer no-underline p-6;
 
-      &.active {
-          @apply text-pink-900 relative;
+            &.active {
+                @apply relative z-50 text-pink-800;
 
-          &:after {
-              content: "";
-              position: absolute;
-              bottom: -30px;
-              left: -10px;
-              background-image: url("../../public/img/active-indicator.svg");
-              background-repeat: no-repeat;
-              background-size: contain;
-              height: 60px;
-              width: 80px;
-              z-index: -10;
-          }
-      }
+                &:after {
+                    @apply text-pink-900 absolute top-0 left-0 bg-no-repeat bg-center bg-contain h-full w-full z-0;
+
+                    content: "";
+                    background-image: url("../../public/img/circle-2-bubbly.svg");
+                }
+            }
+        }
+
+        @screen md {
+            @apply mr-0;
+        }
     }
 
-    @media screen and (min-width: 748px) {
-      margin-right: unset;
-    }
-  }
+    .logo {
+        max-width: 150px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
 
-  .logo {
-    max-width: 150px;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-
-    @media screen and (min-width: 748px) {
-      margin-left: unset;
+        @media screen and (min-width: 748px) {
+            margin-left: unset;
+        }
     }
-  }
 }

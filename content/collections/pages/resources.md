@@ -4,10 +4,10 @@ blueprint: page
 title: Resources
 template: default
 updated_by: 276fbad6-728b-4736-83b8-2d760b0bf40c
-updated_at: 1691914988
+updated_at: 1691952130
 page_title: 'Explore our resources on period poverty'
 page_description: 'From how to fight the stigma around menstruation, to actual policy initiatives, we’ve compiled a collection of resource about period poverty, and how it affects your community.'
-page_url: 'http://capitalregionmh.com/resources'
+page_url: 'https://capitalregionmh.com/resources'
 page_image: resources-og.png
 components:
   -
@@ -27,4 +27,6 @@ components:
         resource_type: policy-legislation
   -
     type: paragraph
+page_width: 1200
+page_height: 630
 ---
