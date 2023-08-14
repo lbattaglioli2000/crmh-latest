@@ -61,7 +61,7 @@
 
 <div class="remodal-bg">
     {{ collection:pantries }}
-        <div class="remodal" data-remodal-id="{{ slug }}" data-remodal-options="hashTracking: false, closeOnOutsideClick: true">
+        <div class="remodal pantry-details" data-remodal-id="{{ slug }}" data-remodal-options="hashTracking: false, closeOnOutsideClick: true">
 
             <div class="map"
                  id="{{ slug }}-map"
@@ -123,7 +123,7 @@
         </div>
     {{ /collection:pantries }}
 
-    <div class="remodal" data-remodal-id="donate" data-remodal-options="hashTracking: false, closeOnOutsideClick: true">
+    <div class="remodal donate" data-remodal-id="donate" data-remodal-options="hashTracking: false, closeOnOutsideClick: true">
         <button data-remodal-action="close" class="remodal-close"></button>
 
         <div class="content space-y-6">
@@ -140,7 +140,7 @@
                 </b>
             </p>
 
-            <a target="_blank" href="https://www.paypal.com/donate?token=hhyzw7rle9s3jjJR0J7VmrnWvBXn8ehSPT2u-MToi1UDMkhpiZgqpLhOyHxpBfnKYVDNWIXZa_MiwCFQ">
+            <a class="donate-button" target="_blank" href="https://www.paypal.com/donate?token=hhyzw7rle9s3jjJR0J7VmrnWvBXn8ehSPT2u-MToi1UDMkhpiZgqpLhOyHxpBfnKYVDNWIXZa_MiwCFQ">
                 Donate with <b>PayPal</b>
             </a>
         </div>

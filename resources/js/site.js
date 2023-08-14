@@ -3,6 +3,7 @@ import remodal from 'remodal';
 import { Loader } from "@googlemaps/js-api-loader";
 
 window.$ = window.jQuery = $;
+window.dataLayer = window.dataLayer || [];
 
 const loader = new Loader({
     apiKey: "AIzaSyAXqiPpYvU5Ow9nOiYcl3D-3BKoURdDpY4",
@@ -71,9 +72,37 @@ $(function () {
     // smooth scroll to locations
     $('a[href*="#pantries"]').on('click', function (e) {
         e.preventDefault();
-
+        window.dataLayer.push({
+            'event': 'viewedPantryLocations',
+        });
         $('html, body').animate({
             scrollTop: $($(this).attr('href')).offset().top - 50
         }, 500, 'linear');
+    });
+});
+
+// Google Analytics Event Tracking
+$(function () {
+    $('.resource').on('click', function (e) {
+        window.dataLayer.push({
+            'event': 'viewedResource',
+            'resource': $(this).attr('href')
+        });
+    });
+    $('.donate-button').on('click', function (e) {
+        window.dataLayer.push({
+            'event': 'donationButtonClicked'
+        });
+    });
+    $(document).on('opened', '.remodal.pantry-details', function (e) {
+        window.dataLayer.push({
+            'event': 'viewedPantry',
+            'pantry': e.currentTarget.dataset.remodalId
+        });
+    });
+    $(document).on('opened', '.remodal.donate', function (e) {
+        window.dataLayer.push({
+            'event': 'donationModalOpened'
+        });
     });
 });
