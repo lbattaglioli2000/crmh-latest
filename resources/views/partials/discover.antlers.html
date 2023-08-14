@@ -18,7 +18,7 @@
                 <h3 class="my-4">{{ title }}</h3>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                     {{ entries:pantry }}
-                    <a data-remodal-target="{{ slug }}" href="#" class="flex col-span-1 bg-pink-50 border-4 border-pink-800 shadow-solid-brand relative" id="{{ slug }}">
+                    <a data-remodal-target="{{ slug }}" href="#" class="flex col-span-1 bg-pink-50 border-2 border-pink-800 shadow-solid-brand relative hover:shadow-pressed-brand hover:translate-x-2 hover:translate-y-2 transition-all duration-200 ease-in-out" id="{{ slug }}">
                         <img
                             src="{{ photo:url }}"
                             alt="{{ title }} in {{ city:title }}"
@@ -126,15 +126,18 @@
     <div class="remodal" data-remodal-id="donate" data-remodal-options="hashTracking: false, closeOnOutsideClick: true">
         <button data-remodal-action="close" class="remodal-close"></button>
 
-        <div class="content">
-            <h1>Donate to CRMH</h1>
+        <div class="content space-y-6">
+            <h1>Donate to Capital Region Menstrual Health</h1>
             <p>
-                If you're able to make a monetary donation to our initiative, you can donate through PayPal using this
-                form. All donations will go towards purchasing supplies for our Period Pantries.
+                If you're able to make a monetary donation to our initiative, you can donate through PayPal by clicking
+                the button below. All donations will go towards purchasing supplies for our Period Pantries.
             </p>
             <p>
-                <b>We just ask that you write "for CRMH" in the note section of your donation, to ensure your
-                    donation is allocated to our initiative.</b>
+                <b>
+                    We just ask that you write <span class="font-drawn text-2xl">"For CRMH"</span> in the notes section
+                    of your donation. This helps ensure that your donation to the Cornell Cooperative Extension is
+                    allocated specifically to our initiative.
+                </b>
             </p>
 
             <a target="_blank" href="https://www.paypal.com/donate?token=hhyzw7rle9s3jjJR0J7VmrnWvBXn8ehSPT2u-MToi1UDMkhpiZgqpLhOyHxpBfnKYVDNWIXZa_MiwCFQ">

@@ -10,7 +10,7 @@ page_image: home-og.png
 page_width: 1200
 page_height: 630
 updated_by: 276fbad6-728b-4736-83b8-2d760b0bf40c
-updated_at: 1691962171
+updated_at: 1691982066
 components:
   -
     type: set
@@ -52,7 +52,7 @@ components:
       id: ll90iffy
       values:
         type: call_to_action
-        headline: 'If you can, help support our mission!'
+        headline: 'Learn how you can support our mission!'
         copy: |-
           We believe that every person who menstruates should have access to the products and resources they need to manage their period with dignity and comfort. That's why we're accepting donations of period products and monetary donations.
 
@@ -72,6 +72,7 @@ components:
             link_field: '#donate'
             type: new_set
             enabled: true
+        eyebrow: 'Want to make a difference?'
   -
     type: set
     attrs:
@@ -80,6 +81,7 @@ components:
         type: team
         headline: 'Meet The Team'
         copy: 'As an initiative of Cornell Cooperative Extension, Capital Region Menstrual Health (previously SMHC) works to promote the health and wellbeing of individuals who menstruate in our area. CRMH works to increase period equity by bringing period products directly into under-resourced communities through a network of established and trusted community-based organizations and our period pantries.'
+        eyebrow: 'The Brains Behind the Initiative'
   -
     type: set
     attrs:

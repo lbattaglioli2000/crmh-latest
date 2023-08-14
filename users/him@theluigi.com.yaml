@@ -10,4 +10,3 @@ preferences:
         - slug
         - status
         - resource_type
-        - resources

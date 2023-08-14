@@ -29,7 +29,8 @@ module.exports = {
             'stencil': ['Saira Stencil One', 'monospace']
         },
         boxShadow: {
-            'solid-brand': '#870557 8px 8px 0 0'
+            'solid-brand': '#870557 8px 8px 0 0',
+            'pressed-brand': '#870557 0 0 0 0',
         }
     },
       container: {
