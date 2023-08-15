@@ -390,6 +390,87 @@ fields:
                     instructions_position: above
                     visibility: visible
                     hide_display: false
+            resource_listing:
+              display: 'Resource Listing'
+              instructions: 'Lists all the resources as a categorized grid list.'
+              icon: content-book-open
+              fields: {  }
+            featured_resources:
+              display: 'Featured Resources'
+              instructions: 'Showcase up to 10 featured resources'
+              icon: layout-carousel-horizontal
+              fields:
+                -
+                  handle: eyebrow
+                  field:
+                    input_type: text
+                    antlers: false
+                    type: text
+                    display: Eyebrow
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    hide_display: false
+                -
+                  handle: headline
+                  field:
+                    input_type: text
+                    antlers: false
+                    type: text
+                    display: Headline
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    hide_display: false
+                -
+                  handle: copy
+                  field:
+                    restrict: false
+                    buttons:
+                      - bold
+                      - italic
+                      - unorderedlist
+                      - orderedlist
+                      - quote
+                      - link
+                      - image
+                      - table
+                    automatic_line_breaks: true
+                    automatic_links: false
+                    escape_markup: false
+                    heading_anchors: false
+                    smartypants: false
+                    table_of_contents: false
+                    antlers: false
+                    type: markdown
+                    display: Copy
+                    icon: markdown
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    hide_display: false
+                -
+                  handle: resources
+                  field:
+                    max_items: 10
+                    mode: default
+                    create: true
+                    collections:
+                      - resources
+                    type: entries
+                    display: Resources
+                    icon: entries
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    hide_display: false
+        forms:
+          display: Forms
+          instructions: null
+          icon: form-text-field
+          sets:
             contact_us:
               display: 'Contact Us'
               instructions: null
@@ -446,27 +527,62 @@ fields:
                     instructions_position: above
                     visibility: visible
                     hide_display: false
-            resources:
-              display: 'Resources List'
-              instructions: 'Display a specific category of resources.'
-              icon: content-book-open
+            donation_request:
+              display: 'Donation Request'
+              instructions: 'Form for organizations to request a donation'
+              icon: favorite-heart
               fields:
                 -
-                  handle: resource_type
+                  handle: eyebrow
                   field:
-                    max_items: 1
-                    mode: default
-                    create: true
-                    taxonomies:
-                      - resources
-                    type: terms
-                    display: 'Resource Type'
-                    icon: taxonomy
+                    input_type: text
+                    antlers: false
+                    type: text
+                    display: Eyebrow
+                    icon: text
                     listable: hidden
                     instructions_position: above
                     visibility: visible
                     hide_display: false
-                    instructions: 'Select the type of resource to show'
+                -
+                  handle: headline
+                  field:
+                    input_type: text
+                    antlers: false
+                    type: text
+                    display: Headline
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    hide_display: false
+                -
+                  handle: copy
+                  field:
+                    restrict: false
+                    buttons:
+                      - bold
+                      - italic
+                      - unorderedlist
+                      - orderedlist
+                      - quote
+                      - link
+                      - image
+                      - table
+                    automatic_line_breaks: true
+                    automatic_links: false
+                    escape_markup: false
+                    heading_anchors: false
+                    smartypants: false
+                    table_of_contents: false
+                    antlers: false
+                    type: markdown
+                    display: Copy
+                    icon: markdown
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    hide_display: false
       always_show_set_button: true
       collapse: false
       previews: true

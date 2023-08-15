@@ -1,19 +1,23 @@
 <div class="resources">
     <div class="container mx-auto p-6 text-xl">
-            <div class="mb-12">
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    {{ collection:resources }}
-                        <a href="{{ link }}" target="_blank" class="resource block bg-pink-50 border-2 border-pink-800 shadow-solid-brand p-6 hover:shadow-pressed-brand hover:translate-x-2 hover:translate-y-2 transition-all duration-200 ease-in-out">
-                            <span class="block font-black mb-2">{{ title }}</span>
-                            {{ resource_type }}
-                                <span class="block text-accent uppercase text-sm mb-4">
-                                    {{ title }}
-                                </span>
-                            {{ /resource_type }}
-                            {{ content }}
-                        </a>
-                    {{ /collection:resources }}
-                </div>
+        {{ taxonomy:categories }}
+
+            <div class="mb-8">
+                <h3>{{ title }}</h3>
+                {{ content }}
             </div>
+
+            <section id="{{ slug }}" class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-24">
+                {{ entries:listing taxonomy:categories:in="{ slug }" }}
+                    <a href="{{ link }}" target="_blank" class="resource block bg-pink-50 border-2 border-pink-800 shadow-solid-brand p-6 hover:shadow-pressed-brand hover:translate-x-2 hover:translate-y-2 transition-all duration-200 ease-in-out">
+                        <span class="block font-black mb-2">{{ title }}</span>
+                        <span class="block text-accent uppercase text-sm mb-4">
+                            {{ date }}
+                        </span>
+                        {{ content }}
+                    </a>
+                {{ /entries:listing }}
+            </section>
+        {{ /taxonomy:categories }}
     </div>
 </div>

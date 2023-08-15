@@ -17,6 +17,8 @@
         "@googlemaps/js-api-loader": "^1.16.2",
         "alpinejs": "^3.12.3",
         "google-maps": "^4.3.3",
-        "remodal": "^1.1.1"
+        "remodal": "^1.1.1",
+        "slick-carousel": "^1.8.1",
+        "swiper": "^10.1.0"
     }
 }

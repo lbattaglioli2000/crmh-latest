@@ -33,11 +33,13 @@
         <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=DynaPuff:wght@400;500;600;700&family=Poppins:wght@100;300;400;500;600;700;800;900&family=Saira+Stencil+One&display=swap" rel="stylesheet">
 
         <!-- Styles and Scripts -->
-        {{ vite src="resources/js/site.js|resources/scss/site.scss" }}
+        {{ vite src="resources/js/site.js|resources/js/slick.js|resources/scss/site.scss" }}
     </head>
     <body>
         <header class="container mx-auto my-8 p-6">
-            <img class="logo" src="/img/crmh-logo.svg" alt="Capital Region Menstrual Health Logo">
+            <a href="/">
+                <img class="logo" src="/img/crmh-logo.svg" alt="Capital Region Menstrual Health Logo">
+            </a>
             <nav class="mt-4 md:mt-auto md:ml-auto">
                 {{ nav:main }}
                     <a href="{{ url }}" {{ if is_current || is_parent }} class="active"{{ /if }}>{{ title }}</a>
@@ -56,11 +58,11 @@
             <div class="bg-pink-800">
             <div class="mx-auto container overflow-hidden p-6 py-20 sm:py-24 lg:px-8">
                 <nav class="-mb-6 columns-3 text-center flex justify-center space-x-12" aria-label="Footer">
-                    {{ nav:main }}
+                    {{ nav:footer_nav }}
                         <div class="pb-6">
                             <a href="{{ url }}" class="leading-6 text-pink-50 hover:text-pink-300">{{ title }}</a>
                         </div>
-                    {{  /nav:main }}
+                    {{  /nav:footer_nav }}
                 </nav>
                 <div class="mt-10 flex justify-center space-x-10">
                     <a target="_blank" href="{{ organization:facebook_url }}" class="text-pink-50 hover:text-pink-300">

@@ -11,6 +11,42 @@ const loader = new Loader({
 });
 
 $(function () {
+    $('.slick-slider').slick({
+        centerMode: true,
+        mobileFirst: true,
+        slidesToShow: 1,
+        autoplay: true,
+        autoplaySpeed: 1000,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 1440,
+                settings: {
+                    slidesToShow: 4,
+                }
+            },
+            {
+                breakpoint: 1920,
+                settings: {
+                    slidesToShow: 5,
+                }
+            }
+        ]
+    });
+});
+
+$(function () {
     $('nav a').hover(function () {
         var a = Math.random() * 10 - 5;
         $(this).css('transform', 'rotate(' + a + 'deg) scale(1.25)');

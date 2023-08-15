@@ -13,11 +13,11 @@
 
         {{ copy }}
 
-        {{ taxonomy:city }}
+        {{ taxonomy:cities }}
             <div class="mt-12" id="{{ slug }}">
                 <h3 class="my-4">{{ title }}</h3>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    {{ entries:pantry }}
+                    {{ entries taxonomy:cities:in=slug }}
                     <a data-remodal-target="{{ slug }}" href="#" class="flex col-span-1 bg-pink-50 border-2 border-pink-800 shadow-solid-brand relative hover:shadow-pressed-brand hover:translate-x-2 hover:translate-y-2 transition-all duration-200 ease-in-out" id="{{ slug }}">
                         <img
                             src="{{ photo:url }}"
@@ -50,10 +50,10 @@
                                 </span>
                         </div>
                     </a>
-                    {{ /entries:pantry }}
+                    {{ /entries }}
                 </div>
             </div>
-        {{ /taxonomy:city }}
+        {{ /taxonomy:cities }}
     </div>
 
     <img src="/img/cutoff-polka-dots.svg" alt="Pink polka dots" class="ml-auto -mt-24">
@@ -67,7 +67,7 @@
                  id="{{ slug }}-map"
                  data-name="{{ title }}"
                  data-address="{{ address }}"
-                 data-city="{{ city:title }}"
+                 data-city="{{ cities:title }}"
                  data-state="NY"
                  data-zip="{{ postal_code }}"
             ></div>
@@ -103,7 +103,7 @@
                         <address>
                             {{ address }},
                             <br>
-                            {{ city:title }}, NY
+                            {{ cities:title }}, NY
                             <br>
                             {{ postal_code }}
                         </address>
@@ -140,7 +140,17 @@
                 </b>
             </p>
 
-            <a class="donate-button" target="_blank" href="https://www.paypal.com/donate?token=hhyzw7rle9s3jjJR0J7VmrnWvBXn8ehSPT2u-MToi1UDMkhpiZgqpLhOyHxpBfnKYVDNWIXZa_MiwCFQ">
+            <div class="bg-white p-4 flex rounded-xl border-2 border-pink-800">
+
+                <span class="block my-auto">
+                    Just scan this code, or click the button below.
+                </span>
+
+                <img src="/img/paypal-qr.png" class="max-w-xs my-auto">
+
+            </div>
+
+            <a class="donate-button" target="_blank" href="https://schenectady.cce.cornell.edu/donate">
                 Donate with <b>PayPal</b>
             </a>
         </div>

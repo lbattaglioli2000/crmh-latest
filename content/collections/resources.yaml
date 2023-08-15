@@ -2,8 +2,9 @@ title: Resources
 template: default
 layout: layout
 taxonomies:
-  - resources
+  - categories
 revisions: false
+date: true
 sort_dir: asc
 date_behavior:
   past: public

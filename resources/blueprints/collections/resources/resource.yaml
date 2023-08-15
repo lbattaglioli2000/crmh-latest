@@ -28,21 +28,6 @@ tabs:
               visibility: visible
               validate:
                 - required
-          -
-            handle: resource_type
-            field:
-              max_items: 1
-              mode: default
-              create: true
-              taxonomies:
-                - resources
-              type: terms
-              display: 'Resource Type'
-              icon: taxonomy
-              listable: hidden
-              instructions_position: above
-              visibility: visible
-              hide_display: false
   sidebar:
     display: Sidebar
     sections:
@@ -53,3 +38,25 @@ tabs:
             field:
               type: slug
               localizable: true
+          -
+            handle: date
+            field:
+              type: date
+              required: true
+              default: now
+              validate:
+                - required
+          -
+            handle: categories
+            field:
+              type: terms
+              taxonomies:
+                - categories
+              display: Category
+              mode: select
+              instructions_position: above
+              listable: hidden
+              visibility: visible
+              max_items: 1
+              create: true
+              hide_display: false

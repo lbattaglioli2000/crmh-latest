@@ -7,6 +7,7 @@ address: '47 Lark Street'
 city: albany
 postal_code: '12210'
 updated_by: 276fbad6-728b-4736-83b8-2d760b0bf40c
-updated_at: 1691893581
+updated_at: 1692053724
 photo: trinity-alliance-pp.jpg
+cities: albany
 ---

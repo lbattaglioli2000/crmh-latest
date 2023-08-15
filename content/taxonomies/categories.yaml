@@ -1,6 +1,6 @@
-title: Resources
+title: Categories
 preview_targets:
   -
-    label: Term
+    label: Category
     url: '{permalink}'
     refresh: true

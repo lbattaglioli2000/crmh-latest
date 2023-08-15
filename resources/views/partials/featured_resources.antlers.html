@@ -1,0 +1,32 @@
+<div class="featured-resources">
+
+    <div class="mx-auto container p-6 space-y-4 text-xl">
+        <h2 class="text-4xl sm:text-6xl lg:text-7xl">
+            <span class="block font-sans uppercase font-bold text-pink-500 text-lg sm:text-2xl">
+                {{ eyebrow }}
+            </span>
+            {{ headline }}
+        </h2>
+
+        {{ copy }}
+    </div>
+
+    <div class="slick-slider">
+        {{ resources }}
+        <a href="{{ link }}" target="_blank" class="slick-slide bg-pink-50 mx-8 border-2 border-pink-800 shadow-solid-brand p-6 hover:shadow-pressed-brand hover:translate-x-2 hover:translate-y-2 transition-all duration-200 ease-in-out">
+            <span class="block font-black mb-2 text-xl">{{ title }}</span>
+
+            <span class="flex gap-x-2">
+                {{ categories }}
+                    <span class="block text-accent uppercase text-sm mb-4">
+                        {{ title }}
+                    </span>
+                {{ /categories }}
+            </span>
+
+            {{ content }}
+        </a>
+        {{ /resources }}
+    </div>
+
+</div>

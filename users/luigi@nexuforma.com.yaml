@@ -7,6 +7,27 @@ preferences:
     resources:
       columns:
         - title
-        - slug
+        - categories
+    pantries:
+      columns:
+        - photo
+        - title
+        - address
+        - city
+        - postal_code
+        - cities
+    pages:
+      columns:
+        - title
         - status
-        - resource_type
+        - page_url
+  taxonomies:
+    categories:
+      after_save: create_another
+      columns:
+        - title
+        - taxonomy
+    cities:
+      columns:
+        - title
+        - taxonomy

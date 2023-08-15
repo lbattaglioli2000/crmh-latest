@@ -7,6 +7,7 @@ address: '200 Green Street'
 city: albany
 postal_code: '12202'
 updated_by: 276fbad6-728b-4736-83b8-2d760b0bf40c
-updated_at: 1691905984
+updated_at: 1692053734
 photo: fss-pp.jpg
+cities: albany
 ---

@@ -1,0 +1,45 @@
+<section class="donate mt-24">
+    <div class="container mx-auto p-6 text-xl">
+        <h2 class="text-4xl sm:text-6xl lg:text-7xl mb-4">
+            <span class="block font-sans uppercase font-bold text-pink-500 text-lg sm:text-2xl">
+                {{ eyebrow }}
+            </span>
+            {{ headline }}
+        </h2>
+
+        {{ copy }}
+
+        {{ form:donation_request }}
+
+            {{ if success }}
+                <div class="bg-green-300 text-white p-2">
+                    {{ success }}
+                </div>
+            {{ else }}
+                {{ if errors }}
+                    <div class="bg-red-300 text-white p-2">
+                        {{ errors }}
+                        {{ value }}<br>
+                        {{ /errors }}
+                    </div>
+                {{ /if }}
+
+                {{ fields }}
+                <div class="form-row">
+                    <label>{{ display }}</label>
+                    <div>{{ field }}</div>
+                    {{ if error }}
+                        <p class="text-gray-500">{{ error }}</p>
+                    {{ /if }}
+                </div>
+                {{ /fields }}
+
+                <input type="text" class="important-field" name="{{ honeypot ?? 'honeypot' }}">
+
+                <button type="submit">Submit</button>
+            {{ /if }}
+
+        {{ /form:donation_request }}
+
+    </div>
+</section>

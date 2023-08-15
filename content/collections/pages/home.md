@@ -10,7 +10,7 @@ page_image: home-og.png
 page_width: 1200
 page_height: 630
 updated_by: 276fbad6-728b-4736-83b8-2d760b0bf40c
-updated_at: 1691982066
+updated_at: 1692055547
 components:
   -
     type: set
@@ -92,15 +92,23 @@ components:
         headline: 'Reach out to learn more!'
         copy: 'Together, we can bring about menstrual health and equity in the Capital Region. If you want to get in touch with us to learn more about the work we’re doing, or to learn how you can make a difference, you can submit the form below and someone from our team will get back to you.'
   -
+    type: set
+    attrs:
+      id: llbi3ln1
+      values:
+        type: featured_resources
+        eyebrow: 'Browse the Collection'
+        headline: 'Featured Period Poverty Resources'
+        copy: "We've created a currated list of resources that you can utilize to help educate yourself, and others including policy makers."
+        resources:
+          - f85b05a2-e556-4688-b53d-cd5595461b8a
+          - fd411510-f36a-4629-88c4-f32a2393846a
+          - cccd86d2-7035-4a06-8c34-33947bc1c400
+          - 82f130f8-36a4-4191-87f9-c4ded3e8b1e7
+          - afa31f37-6846-4b5a-999c-28201efef728
+          - ab6d87ae-3ed2-474d-b480-d2d98badeb4b
+          - 96d6969d-1c5b-4040-95df-552a6246f7c0
+          - 8cc6dcf6-3e33-416d-b114-f502b6096842
+  -
     type: paragraph
 ---
-## Welcome to your brand new Statamic site!
-
-Not sure where to do next? Here are a few ideas, but feel free to explore in your own way, in your own time.
-
-- [Jump into the Control Panel](/cp) and edit this page or begin setting up your own collections and blueprints.
-- [Head to the docs](https://statamic.dev) and learn how Statamic works.
-- [Watch some Statamic videos](https://youtube.com/statamic) on YouTube.
-- [Join our Discord chat](https://statamic.com/discord) and meet thousands of other Statamic developers.
-- [Start a discussion](https://github.com/statamic/cms/discussions) and get answers to your questions.
-- [Star Statamic on Github](https://github.com/statamic/cms) if you enjoy using it!

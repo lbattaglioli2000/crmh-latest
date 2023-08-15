@@ -4,8 +4,10 @@
     {{ partial:hero }}
 {{ elseif type == "child_page_hero" }}
     {{ partial:headline_copy }}
-{{ elseif type == "resources" }}
+{{ elseif type == "resource_listing" }}
     {{ partial:resources }}
+{{ elseif type == "featured_resources" }}
+    {{ partial:featured_resources }}
 {{ elseif type == "headline_copy" }}
     {{ partial:headline_copy }}
 {{ elseif type == "pantry_locations" }}
@@ -16,6 +18,9 @@
     {{ partial:team }}
 {{ elseif type == "contact_us" }}
     {{ partial:contact }}
+{{ elseif type == "donation_request" }}
+    {{ partial:donate }}
 {{ /if }}
 
 {{ /components }}
+

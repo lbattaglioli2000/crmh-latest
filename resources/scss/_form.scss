@@ -54,6 +54,19 @@ form {
                 border-color: $pink-300;
             }
         }
+        div {
+            input[type="checkbox"] {
+                width: auto;
+                margin-right: 12px;
+            }
+            input[type="radio"] {
+                width: auto;
+                margin-right: 12px;
+            }
+            label {
+                font-weight: normal;
+            }
+        }
     }
     .important-field {
         display: none;

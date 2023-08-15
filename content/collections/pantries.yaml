@@ -1,6 +1,6 @@
 title: Pantries
 taxonomies:
-  - city
+  - cities
 revisions: false
 date_behavior:
   past: public
