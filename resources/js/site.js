@@ -1,6 +1,7 @@
 import $ from 'jquery';
-import { Loader } from "@googlemaps/js-api-loader";
+import remodal from 'remodal';
 import 'slick-carousel';
+import { Loader } from "@googlemaps/js-api-loader";
 
 window.$ = window.jQuery = $;
 window.dataLayer = window.dataLayer || [];
