@@ -8,7 +8,7 @@ export default defineConfig({
             input: [
                 'resources/scss/site.scss',
                 'resources/js/site.js',
-                'resource/js/slick.js'
+                'resources/js/slick.js'
 
                 // Control Panel assets.
                 // https://statamic.dev/extending/control-panel#adding-css-and-js-assets

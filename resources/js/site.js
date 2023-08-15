@@ -1,5 +1,4 @@
 import $ from 'jquery';
-import remodal from 'remodal';
 import { Loader } from "@googlemaps/js-api-loader";
 
 window.$ = window.jQuery = $;
