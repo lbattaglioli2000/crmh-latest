@@ -1,5 +1,6 @@
 import $ from 'jquery';
 import { Loader } from "@googlemaps/js-api-loader";
+import 'slick-carousel';
 
 window.$ = window.jQuery = $;
 window.dataLayer = window.dataLayer || [];
