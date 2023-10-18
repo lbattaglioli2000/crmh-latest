@@ -31,3 +31,9 @@ preferences:
       columns:
         - title
         - taxonomy
+  forms:
+    contact_form:
+      columns:
+        - datestamp
+        - name
+        - email_address
