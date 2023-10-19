@@ -7,7 +7,7 @@ address: '44 Washington Avenue'
 city: schenectady
 postal_code: '12305'
 updated_by: 276fbad6-728b-4736-83b8-2d760b0bf40c
-updated_at: 1697675694
+updated_at: 1697675718
 photo: ywca-pp.jpg
-cities: troy
+cities: schenectady
 ---
