@@ -41,3 +41,11 @@ preferences:
     -
       name: 'Pantries ‹ Collections'
       url: collections/pantries
+  nav:
+    tools:
+      'tools::updates': '@hide'
+      'tools::addons': '@hide'
+      'tools::utilities': '@hide'
+    users:
+      'users::groups': '@hide'
+      'users::permissions': '@hide'
