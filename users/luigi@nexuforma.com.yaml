@@ -37,3 +37,7 @@ preferences:
         - datestamp
         - name
         - email_address
+  favorites:
+    -
+      name: 'Pantries ‹ Collections'
+      url: collections/pantries
