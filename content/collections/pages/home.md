@@ -3,14 +3,14 @@ id: home
 blueprint: pages
 title: Home
 template: home
-page_title: 'Capital Regon Menstrual Health'
+page_title: 'Capital Region Menstrual Health'
 page_description: 'Capital Region Menstrual Health is a non-profit organization working to promote the health and well-being of individuals who menstruate in our community. Our mission is to increase period equity by providing access to menstrual hygiene products and education.'
 page_url: 'https://capitalregionmh.com'
 page_image: home-og.png
 page_width: 1200
 page_height: 630
 updated_by: 276fbad6-728b-4736-83b8-2d760b0bf40c
-updated_at: 1697677142
+updated_at: 1699572568
 components:
   -
     type: set
