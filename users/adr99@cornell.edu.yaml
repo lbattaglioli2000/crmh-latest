@@ -3,3 +3,7 @@ super: true
 avatar: annabelle.jpeg
 id: cca56f8d-dff7-427c-8650-323027407dcb
 password_hash: $2y$10$YrtwSASDAqFseJT6UtJkBOv5avBs35yVOQatOJ7/Xd53WVaSWs.iu
+preferences:
+  assets:
+    assets:
+      mode: grid
