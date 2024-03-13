@@ -3,8 +3,8 @@ id: ebbfa1a8-ffe9-49e4-b194-60ceb643abcb
 blueprint: page
 title: Resources
 template: default
-updated_by: 276fbad6-728b-4736-83b8-2d760b0bf40c
-updated_at: 1699572584
+updated_by: cca56f8d-dff7-427c-8650-323027407dcb
+updated_at: 1710338516
 page_title: 'Explore our resources on period poverty'
 page_description: 'From how to fight the stigma around menstruation, to actual policy initiatives, we’ve compiled a collection of resource about period poverty, and how it affects your community.'
 page_url: 'https://capitalregionmh.com/resources'
@@ -24,6 +24,20 @@ components:
       id: llbhzod1
       values:
         type: resource_listing
+  -
+    type: set
+    attrs:
+      id: ltpvbfsa
+      values:
+        type: headline_copy
+        eyebrow: 'CRMH Newsletter'
+        headline: "It's That Time of The Month!"
+        copy: |-
+          Archive of our seasonal newsletter!
+
+          | [](https://mailchi.mp/eb74ba4a11c0/its-that-time-of-the-month-6718770)    |     |
+          | --- | --- |
+          |     |     |
   -
     type: paragraph
 page_width: 1200
