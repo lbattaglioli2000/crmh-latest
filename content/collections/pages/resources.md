@@ -4,7 +4,7 @@ blueprint: page
 title: Resources
 template: default
 updated_by: cca56f8d-dff7-427c-8650-323027407dcb
-updated_at: 1710338701
+updated_at: 1710338734
 page_title: 'Explore our resources on period poverty'
 page_description: 'From how to fight the stigma around menstruation, to actual policy initiatives, we’ve compiled a collection of resource about period poverty, and how it affects your community.'
 page_url: 'https://capitalregionmh.com/resources'
@@ -32,7 +32,7 @@ components:
         type: headline_copy
         headline: 'CRMH Newsletter'
         copy: |-
-          [](<div id="mc_embed_shell">
+          <div id="mc_embed_shell">
                 <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
             <style type="text/css">
                   #mc_embed_signup{background:#fff; false;clear:left; font:14px Helvetica,Arial,sans-serif; width: 600px;}
@@ -61,7 +61,7 @@ components:
               </div>
           </form>
           </div>
-          <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script></div>)
+          <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script></div>
   -
     type: paragraph
 page_width: 1200
