@@ -4,7 +4,7 @@ blueprint: page
 title: Resources
 template: default
 updated_by: cca56f8d-dff7-427c-8650-323027407dcb
-updated_at: 1710338734
+updated_at: 1710339002
 page_title: 'Explore our resources on period poverty'
 page_description: 'From how to fight the stigma around menstruation, to actual policy initiatives, we’ve compiled a collection of resource about period poverty, and how it affects your community.'
 page_url: 'https://capitalregionmh.com/resources'
@@ -32,6 +32,8 @@ components:
         type: headline_copy
         headline: 'CRMH Newsletter'
         copy: |-
+          Keep up with CRMH! Our bimonthly newsletter includes events, resources, and general updates regarding all things menstrual equity!
+
           <div id="mc_embed_shell">
                 <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
             <style type="text/css">
