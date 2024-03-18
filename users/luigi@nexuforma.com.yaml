@@ -50,3 +50,6 @@ preferences:
     users:
       'users::groups': '@hide'
       'users::permissions': '@hide'
+  assets:
+    assets:
+      mode: grid
