@@ -15,8 +15,8 @@
                 {{ team:members }}
                 <li class="flex flex-col gap-10 pt-12 sm:flex-row">
                     {{ profile_photo }}
-                    <div class="max-w-52 flex-none border-4 border-pink-800 shadow-solid-brand h-52">
-                        <img class="w-full h-full object-cover" src="{{ url }}" alt="">
+                    <div class="max-w-52 w-full sm:w-auto sm:max-w-none flex-none">
+                        <img class="w-full h-auto object-cover sm:w-52 sm:h-auto border-4 border-pink-800 shadow-solid-brand" src="{{ url }}" alt="">
                     </div>
                     {{ /profile_photo }}
 
