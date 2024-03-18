@@ -15,14 +15,17 @@
                 {{ team:members }}
                 <li class="flex flex-col gap-10 pt-12 sm:flex-row">
                     {{ profile_photo }}
-                        <img class="aspect-[4/5] w-52 flex-none border-4 border-pink-800 shadow-solid-brand object-cover" src="{{ url }}" alt="">
+                    <div class="max-w-52 flex-none border-4 border-pink-800 shadow-solid-brand h-52">
+                        <img class="w-full h-full object-cover" src="{{ url }}" alt="">
+                    </div>
                     {{ /profile_photo }}
+
                     <div class="max-w-xl flex-auto">
                         <h3 class="text-lg font-semibold leading-8 tracking-tight">{{ name }}</h3>
                         <p class="text-base leading-7 mb-4">{{ job_title }}</p>
-
-                        {{ bio | safe_truncate(150, '...') }}
-
+                        <div>
+                            {{ bio }}
+                        </div>
                         <ul role="list" class="mt-4 flex gap-x-6">
                             <li>
                                 <a href="mailto:{{ email_address }}" class="text-pink-700 transition-colors hover:text-pink-900">
