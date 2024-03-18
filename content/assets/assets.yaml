@@ -1,5 +1,5 @@
 title: Assets
-disk: public
+disk: assets
 allow_uploads: true
 allow_downloading: true
 allow_renaming: true
