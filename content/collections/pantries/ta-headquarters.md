@@ -6,6 +6,7 @@ details: 'Black box with "free period pantry" written on it.'
 address: '15 Trinity Place'
 cities: albany
 postal_code: '12202'
-updated_by: cca56f8d-dff7-427c-8650-323027407dcb
-updated_at: 1710257125
+updated_by: 276fbad6-728b-4736-83b8-2d760b0bf40c
+updated_at: 1710802931
+photo: ta-pantry.png
 ---
