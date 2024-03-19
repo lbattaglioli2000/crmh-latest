@@ -10,7 +10,7 @@ data:
       profile_photo: brynn.jpg
       type: members
       enabled: true
-      bio: 'I am currently employed as a New York State Public Health Corps Fellow at Cornell Cooperative Extension of Schenectady, where I support various public health initiatives and programs. I have a Master of Public Health degree in progress from the University at Albany, and a Bachelor of Arts degree in Human Services and Sociology from SUNY New Paltz.'
+      bio: 'CRMH strives to fight period poverty by bringing period products directly into under-resourced communities through a network of established and trusted community-based organizations and our period pantries. These pantries are small, free, weather-protected containers that house a multitude of menstrual hygiene products that are accessible 24/7.'
     -
       id: lgn1xc9k
       name: 'Claire Jennings'
@@ -20,10 +20,7 @@ data:
       profile_photo: claire.jpeg
       type: members
       enabled: true
-      bio: |-
-        I am a recent graduate of the State University of New York at Geneseo, with a bachelor’s degree in Political Science, and Geological Sciences. While attending SUNY Geneseo, I worked as an Undergraduate Laboratory Assistant (ULA) for the Geneseo Geology Department, as well as an employee at Jefferson County Public Health in Watertown, NY in Preventative Services, Communicable Disease Control. 
-
-        I am currently a NYS Public Health Corps Fellow at Schenectady County Public Health and Cornell Cooperative Extension, Schenectady County, attending the University at Albany for my Masters in Public Health. I am also co-founder of Capital Region Menstrual Health.
+      bio: 'I am currently a NYS Public Health Corps Fellow at Cornell Cooperative Extension, Schenectady County, attending the University at Albany for my Masters in Public Health. I am also co-founder of Capital Region Menstrual Health, working to fight period poverty in the Capital Region!'
     -
       id: lgn1voka
       name: 'Annabelle Rieseler'
