@@ -2,3 +2,4 @@ name: 'Claire Jennings'
 super: true
 avatar: claire.jpeg
 id: 2acdc765-7afc-4d11-8fe8-5d472e530949
+password_hash: $2y$10$APcGm1eIIrvctAFGk7YKqOUM.1yeAtXSg9297FB3YalfiibDCoIdm
