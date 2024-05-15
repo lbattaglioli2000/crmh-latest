@@ -9,8 +9,8 @@ page_url: 'https://capitalregionmh.com'
 page_image: home-og.png
 page_width: 1200
 page_height: 630
-updated_by: cca56f8d-dff7-427c-8650-323027407dcb
-updated_at: 1710788887
+updated_by: 57833485-e8fc-4a26-9a48-f9224ba7d3ee
+updated_at: 1715791007
 components:
   -
     type: set
@@ -20,7 +20,7 @@ components:
         type: home_hero
         eyebrow: 'Capital Region Menstrual Health'
         headline: 'Empowering Menstrual Health in the Capital Region'
-        copy: 'Capital Region Menstrual Health is a non-profit organization working to promote the health and well-being of individuals who menstruate in our community. Our mission is to increase period equity by providing access to menstrual hygiene products and education.'
+        copy: 'Capital Region Menstrual Health is a local initiative working to promote the health and well-being of individuals who menstruate in our community. Our mission is to increase period equity by providing access to menstrual hygiene products and education.'
         hero_icon: magnifying-glass-circle
         hero_copy: 'Find a Period Pantry'
         hero_link_field: '#pantries'
