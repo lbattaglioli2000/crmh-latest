@@ -10,7 +10,7 @@ page_image: home-og.png
 page_width: 1200
 page_height: 630
 updated_by: 57833485-e8fc-4a26-9a48-f9224ba7d3ee
-updated_at: 1715791249
+updated_at: 1715791286
 components:
   -
     type: set
@@ -34,7 +34,7 @@ components:
         copy: |-
           Individuals are able to access free menstrual products at their convenience via our Free Period Pantries. These small, outdoor, weather-protected containers offer a variety of period products in multiple sizes and absorbencies. These boxes are never locked and operate just like a Little Free Library or Little Food Pantry.
 
-          Our goal is to make it easy for individuals in under-resourced communities to access the period products they need, whenever they need them.
+          **Our goal is to make it easy for individuals in under-resourced communities to access the period products they need, whenever they need them.**
   -
     type: set
     attrs:
