@@ -10,7 +10,7 @@ page_image: home-og.png
 page_width: 1200
 page_height: 630
 updated_by: 57833485-e8fc-4a26-9a48-f9224ba7d3ee
-updated_at: 1715791007
+updated_at: 1715791249
 components:
   -
     type: set
@@ -32,11 +32,9 @@ components:
         type: headline_copy
         headline: 'Dignity & Accessibility for All'
         copy: |-
-          Capital Region Menstrual Health is a non-profit organization working to promote the health and well-being of individuals who menstruate in our community. Our mission is to increase period equity by providing access to menstrual hygiene products and education.
+          Individuals are able to access free menstrual products at their convenience via our Free Period Pantries. These small, outdoor, weather-protected containers offer a variety of period products in multiple sizes and absorbencies. These boxes are never locked and operate just like a Little Free Library or Little Food Pantry.
 
-          We're excited to announce the launch of our first Period Pantry at the Bethesda House in Schenectady, NY, with two additional pantries at SICM and The YWCA of Schenectady. These small, free, weather-protected containers offer a variety of menstrual hygiene products, just like a Little Free Library or Little Food Pantry.
-
-          **Our goal is to make it easy for individuals in under-resourced communities to access the period products they need, whenever they need them.**
+          Our goal is to make it easy for individuals in under-resourced communities to access the period products they need, whenever they need them.
   -
     type: set
     attrs:
