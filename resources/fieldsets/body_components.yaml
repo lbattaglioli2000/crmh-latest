@@ -48,7 +48,6 @@ fields:
                     antlers: false
                     type: text
                     display: Eyebrow
-                    icon: text
                     listable: hidden
                     instructions_position: above
                     visibility: visible
@@ -60,7 +59,6 @@ fields:
                     antlers: false
                     type: text
                     display: Headline
-                    icon: text
                     listable: hidden
                     instructions_position: above
                     visibility: visible
@@ -87,14 +85,10 @@ fields:
                     antlers: false
                     type: markdown
                     display: Copy
-                    icon: markdown
                     listable: hidden
                     instructions_position: above
                     visibility: visible
                     hide_display: false
-                -
-                  import: call_to_action
-                  prefix: hero_
             child_page_hero:
               display: 'Child Page Hero'
               instructions: null
@@ -107,7 +101,6 @@ fields:
                     antlers: false
                     type: text
                     display: Eyebrow
-                    icon: text
                     listable: hidden
                     instructions_position: above
                     visibility: visible
@@ -119,7 +112,6 @@ fields:
                     antlers: false
                     type: text
                     display: Headline
-                    icon: text
                     listable: hidden
                     instructions_position: above
                     visibility: visible
@@ -146,7 +138,6 @@ fields:
                     antlers: false
                     type: markdown
                     display: Copy
-                    icon: markdown
                     listable: hidden
                     instructions_position: above
                     visibility: visible
@@ -168,7 +159,6 @@ fields:
                     antlers: false
                     type: text
                     display: Eyebrow
-                    icon: text
                     listable: hidden
                     instructions_position: above
                     visibility: visible
@@ -180,7 +170,6 @@ fields:
                     antlers: false
                     type: text
                     display: Headline
-                    icon: text
                     listable: hidden
                     instructions_position: above
                     visibility: visible
@@ -207,7 +196,6 @@ fields:
                     antlers: false
                     type: markdown
                     display: Copy
-                    icon: markdown
                     listable: hidden
                     instructions_position: above
                     visibility: visible
@@ -224,7 +212,6 @@ fields:
                     antlers: false
                     type: text
                     display: Eyebrow
-                    icon: text
                     listable: hidden
                     instructions_position: above
                     visibility: visible
@@ -236,7 +223,6 @@ fields:
                     antlers: false
                     type: text
                     display: Headline
-                    icon: text
                     listable: hidden
                     instructions_position: above
                     visibility: visible
@@ -263,7 +249,6 @@ fields:
                     antlers: false
                     type: markdown
                     display: Copy
-                    icon: markdown
                     listable: hidden
                     instructions_position: above
                     visibility: visible
@@ -289,7 +274,6 @@ fields:
                                 import: call_to_action
                     type: replicator
                     display: Actions
-                    icon: replicator
                     listable: hidden
                     instructions_position: above
                     visibility: visible
@@ -306,7 +290,6 @@ fields:
                     antlers: false
                     type: text
                     display: Eyebrow
-                    icon: text
                     listable: hidden
                     instructions_position: above
                     visibility: visible
@@ -318,7 +301,6 @@ fields:
                     antlers: false
                     type: text
                     display: Headline
-                    icon: text
                     listable: hidden
                     instructions_position: above
                     visibility: visible
@@ -345,7 +327,6 @@ fields:
                     antlers: false
                     type: markdown
                     display: Copy
-                    icon: markdown
                     listable: hidden
                     instructions_position: above
                     visibility: visible
@@ -362,7 +343,6 @@ fields:
                     antlers: false
                     type: text
                     display: Eyebrow
-                    icon: text
                     listable: hidden
                     instructions_position: above
                     visibility: visible
@@ -374,7 +354,6 @@ fields:
                     antlers: false
                     type: text
                     display: Headline
-                    icon: text
                     listable: hidden
                     instructions_position: above
                     visibility: visible
@@ -385,7 +364,6 @@ fields:
                     antlers: false
                     type: textarea
                     display: Copy
-                    icon: textarea
                     listable: hidden
                     instructions_position: above
                     visibility: visible
@@ -407,7 +385,6 @@ fields:
                     antlers: false
                     type: text
                     display: Eyebrow
-                    icon: text
                     listable: hidden
                     instructions_position: above
                     visibility: visible
@@ -419,7 +396,6 @@ fields:
                     antlers: false
                     type: text
                     display: Headline
-                    icon: text
                     listable: hidden
                     instructions_position: above
                     visibility: visible
@@ -446,7 +422,6 @@ fields:
                     antlers: false
                     type: markdown
                     display: Copy
-                    icon: markdown
                     listable: hidden
                     instructions_position: above
                     visibility: visible
@@ -461,7 +436,6 @@ fields:
                       - resources
                     type: entries
                     display: Resources
-                    icon: entries
                     listable: hidden
                     instructions_position: above
                     visibility: visible
@@ -483,7 +457,6 @@ fields:
                     antlers: false
                     type: text
                     display: Eyebrow
-                    icon: text
                     listable: hidden
                     instructions_position: above
                     visibility: visible
@@ -495,7 +468,6 @@ fields:
                     antlers: false
                     type: text
                     display: Headline
-                    icon: text
                     listable: hidden
                     instructions_position: above
                     visibility: visible
@@ -522,7 +494,6 @@ fields:
                     antlers: false
                     type: markdown
                     display: Copy
-                    icon: markdown
                     listable: hidden
                     instructions_position: above
                     visibility: visible
@@ -539,7 +510,6 @@ fields:
                     antlers: false
                     type: text
                     display: Eyebrow
-                    icon: text
                     listable: hidden
                     instructions_position: above
                     visibility: visible
@@ -551,7 +521,6 @@ fields:
                     antlers: false
                     type: text
                     display: Headline
-                    icon: text
                     listable: hidden
                     instructions_position: above
                     visibility: visible
@@ -578,7 +547,6 @@ fields:
                     antlers: false
                     type: markdown
                     display: Copy
-                    icon: markdown
                     listable: hidden
                     instructions_position: above
                     visibility: visible
@@ -588,8 +556,8 @@ fields:
       previews: true
       type: bard
       display: Components
-      icon: bard
       listable: hidden
       instructions_position: above
       visibility: visible
       hide_display: false
+      replicator_preview: true
