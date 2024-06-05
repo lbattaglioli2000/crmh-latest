@@ -5,7 +5,6 @@ fields:
     field:
       type: icon
       display: Icon
-      icon: icon_picker
       listable: hidden
       instructions_position: above
       visibility: visible
@@ -18,7 +17,6 @@ fields:
       antlers: false
       type: text
       display: Copy
-      icon: text
       listable: hidden
       instructions_position: above
       visibility: visible
@@ -26,12 +24,10 @@ fields:
   -
     handle: link_field
     field:
-      collections:
-        - pages
       type: link
       display: 'Link Field'
-      icon: link
       listable: hidden
       instructions_position: above
       visibility: visible
       hide_display: false
+      replicator_preview: true
