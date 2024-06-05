@@ -2,8 +2,8 @@
 id: 06ee2309-805a-44b6-9a62-055271ef2949
 blueprint: page
 title: Donate
-updated_by: 276fbad6-728b-4736-83b8-2d760b0bf40c
-updated_at: 1697677622
+updated_by: 57833485-e8fc-4a26-9a48-f9224ba7d3ee
+updated_at: 1717595875
 components:
   -
     type: set
@@ -13,7 +13,7 @@ components:
         type: contact_us
         eyebrow: 'Want to make a difference?'
         headline: 'Make a Donation Today!'
-        copy: 'We will gladly accept donations of unopened period products, as well as financial donations. If you want to donate money, we can accept checks and **[PayPal](https://schenectady.cce.cornell.edu/donate)** donations. If you want to donate period products, please fill out this form so we can reach out to you to coordinate a drop-off date.'
+        copy: "We will gladly accept donations of unopened period products placed directly in our pantries. If you would like to make a financial contribution, follow [**this link**](https://mooncatchers.networkforgood.com/projects/227794-period-pantries-2024) to The MoonCatcher Project's period pantry supply donation page!"
   -
     type: paragraph
 template: home
