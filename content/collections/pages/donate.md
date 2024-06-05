@@ -3,7 +3,7 @@ id: 06ee2309-805a-44b6-9a62-055271ef2949
 blueprint: page
 title: Donate
 updated_by: 57833485-e8fc-4a26-9a48-f9224ba7d3ee
-updated_at: 1717596085
+updated_at: 1717596155
 components:
   -
     type: set
@@ -19,7 +19,7 @@ components:
             id: lx1waiax
             icon: heart
             copy: 'Make a Monetary Donation'
-            link_field: 'https://mooncatchers.networkforgood.com/projects/227794-period-pantries-2024'
+            link_field: '@child'
             type: new_set
             enabled: true
           -
