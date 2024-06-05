@@ -10,7 +10,7 @@ page_image: home-og.png
 page_width: 1200
 page_height: 630
 updated_by: 57833485-e8fc-4a26-9a48-f9224ba7d3ee
-updated_at: 1717595505
+updated_at: 1717595599
 components:
   -
     type: set
@@ -64,14 +64,14 @@ components:
             id: ll90ihcg
             icon: currency-dollar
             copy: 'Make a Donation'
-            link_field: 'https://mooncatchers.networkforgood.com/projects/227794-period-pantries-2024'
+            link_field: '#donate'
             type: new_set
             enabled: true
           -
             id: ll90jel4
             icon: heart
             copy: 'Period Pantry Amazon Wishlist'
-            link_field: 'https://www.amazon.com/hz/wishlist/ls/3RCI7HFINZR1Z?ref_=wl_share'
+            link_field: '#donate'
             type: new_set
             enabled: true
         eyebrow: 'Want to make a difference?'
