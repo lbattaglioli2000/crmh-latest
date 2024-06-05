@@ -10,7 +10,7 @@ page_image: home-og.png
 page_width: 1200
 page_height: 630
 updated_by: 57833485-e8fc-4a26-9a48-f9224ba7d3ee
-updated_at: 1715791286
+updated_at: 1717594846
 components:
   -
     type: set
@@ -20,7 +20,7 @@ components:
         type: home_hero
         eyebrow: 'Capital Region Menstrual Health'
         headline: 'Empowering Menstrual Health in the Capital Region'
-        copy: 'Capital Region Menstrual Health is a local initiative working to promote the health and well-being of individuals who menstruate in our community. Our mission is to increase period equity by providing access to menstrual hygiene products and education.'
+        copy: "Capital Region Menstrual Health was designed to promote the health and well-being of individuals who menstruate in our community. As of June 1st, 2024, The MoonCatcher Project is now continuing CRMH's mission of increase period equity by providing access to menstrual hygiene products and education. https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.mooncatcher.org%2Fperiod-pantries&data=05%7C02%7Cadr99%40cornell.edu%7Cda07579d597b4924d89208dc8562a81d%7C5d7e43661b9b45cf8e79b14b27df46e1%7C0%7C0%7C638531905965566111%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=7mzL6OvfYbGqrfkOMEOQN7zo3ouv%2F8Cq4K8PbVAm%2FT4%3D&reserved=0"
         hero_icon: magnifying-glass-circle
         hero_copy: 'Find a Period Pantry'
         hero_link_field: '#pantries'
