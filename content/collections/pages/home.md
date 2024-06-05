@@ -10,7 +10,7 @@ page_image: home-og.png
 page_width: 1200
 page_height: 630
 updated_by: 57833485-e8fc-4a26-9a48-f9224ba7d3ee
-updated_at: 1717595081
+updated_at: 1717595505
 components:
   -
     type: set
@@ -64,14 +64,14 @@ components:
             id: ll90ihcg
             icon: currency-dollar
             copy: 'Make a Donation'
-            link_field: '#donate'
+            link_field: 'https://mooncatchers.networkforgood.com/projects/227794-period-pantries-2024'
             type: new_set
             enabled: true
           -
             id: ll90jel4
             icon: heart
-            copy: 'Donate Period Products'
-            link_field: '#donate'
+            copy: 'Period Pantry Amazon Wishlist'
+            link_field: 'https://www.amazon.com/hz/wishlist/ls/3RCI7HFINZR1Z?ref_=wl_share'
             type: new_set
             enabled: true
         eyebrow: 'Want to make a difference?'
@@ -83,7 +83,7 @@ components:
         type: featured_resources
         eyebrow: 'Browse the Collection'
         headline: 'Featured Period Poverty Resources'
-        copy: "We've created a currated list of resources that you can utilize to help educate yourself, and others including policy makers."
+        copy: "We've created a curated list of resources that you can utilize to help educate yourself, and others including policy makers."
         resources:
           - f85b05a2-e556-4688-b53d-cd5595461b8a
           - fd411510-f36a-4629-88c4-f32a2393846a
