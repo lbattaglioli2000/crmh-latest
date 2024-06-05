@@ -31,3 +31,13 @@ fields:
       visibility: visible
       hide_display: false
       replicator_preview: true
+  -
+    handle: link_field1
+    field:
+      type: link
+      display: 'Link Field'
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
