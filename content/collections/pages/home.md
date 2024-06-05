@@ -10,7 +10,7 @@ page_image: home-og.png
 page_width: 1200
 page_height: 630
 updated_by: 57833485-e8fc-4a26-9a48-f9224ba7d3ee
-updated_at: 1717595599
+updated_at: 1717596668
 components:
   -
     type: set
@@ -48,33 +48,6 @@ components:
         eyebrow: 'Discover Our Period Pantry Locations'
         headline: 'Free Menstrual Products in Your Neighborhood'
         copy: "We're proud to have established Period Pantries in multiple locations across the Capital Region, making it convenient for individuals in need to access menstrual hygiene products. Each Period Pantry is stocked with a variety of essential products to ensure that everyone can find what they need."
-  -
-    type: set
-    attrs:
-      id: ll90iffy
-      values:
-        type: call_to_action
-        headline: 'Learn how you can support our mission!'
-        copy: |-
-          We believe that every person who menstruates should have access to the products and resources they need to manage their period with dignity and comfort. That's why we're accepting donations of period products and monetary donations.
-
-          You can make a monetary donation that will help us continue to expand our Period Pantry network and provide essential menstrual hygiene products to those in need. If you'd like to donate period products, please contact CRMH for more information on how to make a donation.
-        actions:
-          -
-            id: ll90ihcg
-            icon: currency-dollar
-            copy: 'Make a Donation'
-            link_field: '#donate'
-            type: new_set
-            enabled: true
-          -
-            id: ll90jel4
-            icon: heart
-            copy: 'Period Pantry Amazon Wishlist'
-            link_field: '#donate'
-            type: new_set
-            enabled: true
-        eyebrow: 'Want to make a difference?'
   -
     type: set
     attrs:
