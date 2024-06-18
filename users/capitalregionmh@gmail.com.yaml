@@ -2,3 +2,14 @@ name: CRMH
 super: true
 id: 57833485-e8fc-4a26-9a48-f9224ba7d3ee
 password_hash: $2y$10$6u6tsctRjVo4lzPxuXreweX5n5UYZ7ZBrBjy.Vzh2AONWz42MtcSm
+preferences:
+  collections:
+    resources:
+      columns:
+        - title
+        - slug
+        - date
+        - status
+        - categories
+        - content
+        - link
